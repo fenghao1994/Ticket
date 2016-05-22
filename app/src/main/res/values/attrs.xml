@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Ticket">
+        <!-- 上部三角形是否显示-->
+        <attr name="draw_up" format="boolean"/>
+        <attr name="draw_down" format="boolean"/>
+        <attr name="draw_left" format="boolean"/>
+        <attr name="draw_right" format="boolean"/>
+        <!--三角形边的长度的一半-->
+        <attr name="half_line" format="dimension"/>
+        <!--三角形的高度 -->
+        <attr name="tri_height" format="dimension"/>
+    </declare-styleable>
+</resources>
